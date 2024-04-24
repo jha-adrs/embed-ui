@@ -27,7 +27,7 @@ type UserFormValue = z.infer<typeof formSchema>;
 export default function UserAuthForm() {
   const searchParams = useSearchParams();
   const callbackUrl = searchParams.get("callbackUrl");
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
   const defaultValues = {
     email: "",
     password: "",

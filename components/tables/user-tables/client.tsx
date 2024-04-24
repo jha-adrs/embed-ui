@@ -1,13 +1,10 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { DataTable } from "@/components/ui/data-table";
 import { Heading } from "@/components/ui/heading";
 import { Separator } from "@/components/ui/separator";
-import { User } from "@/constants/data";
 import { ArrowRightCircle, Edit, MapPin, Plus, Trash2 } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { columns } from "./columns";
-import { Card, CardContent, CardDescription, CardFooter, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { DotsVerticalIcon, ExclamationTriangleIcon } from "@radix-ui/react-icons";
 import { DropdownMenu } from "@radix-ui/react-dropdown-menu";
 import { DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
